@@ -68,7 +68,7 @@ export default function Home() {
         {
           product.map(function (val, index) {
             return <div>name : {val.name},Price : {val.price}
-              <button onClick={() => { deletitem(index) }} >Delete Item</button>
+              {/* <button onClick={() => { deletitem(index) }} >Delete Item</button> */}
             </div>
           })
         }
