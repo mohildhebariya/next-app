@@ -67,7 +67,9 @@ export default function Home() {
         </form>
         {
           product.map(function (val, index) {
-            return <div>name : {val.name},Price : {val.price}
+            return <div>
+              <h3>All Product</h3>
+              name : {val.name},Price : {val.price}
               <button onClick={() => { deletitem(index) }} >Delete Item</button>
             </div>
           })
